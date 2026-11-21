@@ -1,0 +1,23 @@
+# Entornos virtuales y Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Datos crudos pesados (mantener solo AOI y .gitkeep)
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/aoi*.geojson
+
+# Rásteres pesados procesados
+data/processed/*.tif
+data/processed/*.tiff
+
+# Carpeta previa no usada
+BioConecta-/
+
+# Sistema / IDE
+.DS_Store
+.vscode/

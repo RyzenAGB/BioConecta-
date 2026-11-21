@@ -1,0 +1,16 @@
+# Dashboard y visualización (Integrante B)
+streamlit>=1.38.0
+folium>=0.17.0
+streamlit-folium>=0.22.0
+pandas>=2.2.0
+
+# Procesamiento geoespacial y modelado (Integrante A + contrato compartido)
+geopandas>=1.0.0
+shapely>=2.0.0
+numpy>=2.0.0
+rasterio>=1.4.0
+scipy>=1.14.0
+scikit-image>=0.24.0
+
+# Pruebas
+pytest>=8.3.0

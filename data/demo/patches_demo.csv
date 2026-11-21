@@ -1,0 +1,5 @@
+patch_id,area_ha,suitability_score,distance_road_m,connectivity_score,vegetation_loss_pct,risk_level,alert_reason,data_year,scenario_type
+DEMO-001,145.6,0.78,620.0,,,bajo,"Parche demostrativo con idoneidad exploratoria alta y sin datos temporales.",2021,simulated
+DEMO-002,38.2,0.52,180.0,,,moderado,"Parche demostrativo de tamaño intermedio próximo a vialidad; requiere revisión.",2021,simulated
+DEMO-003,11.4,0.31,,,12.0,alto,"Escenario simulado: pérdida ficticia de 12.0% > umbral demo 10.0% e idoneidad baja (<0.40).",2021,simulated
+DEMO-004,24.0,,,,,sin_datos,"Sin datos suficientes de idoneidad para evaluar riesgo.",2021,simulated
